@@ -9,6 +9,7 @@ const CoolButton = ({ isSmall, isDanger, className, isSuccess, children }) =>{
     ${isSmall ? 'is-small' : ''}
     ${isDanger ? 'is-danger' : ''}
     ${isSuccess ? 'is-success' : ''}
+
     `
 
     return (
